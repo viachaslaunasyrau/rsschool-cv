@@ -27,7 +27,7 @@ gameField.addEventListener('click', (e)=>{
 ```
 ## Experience:
 Work on projects in RSschool https://github.com/viachaslaunasyrau
-##Education:
+## Education: 
 * Belarusian State College of Building Materials Industry 2006-2009
 * RSschool courses Stage#0, and start Stage#1
 * self-study
