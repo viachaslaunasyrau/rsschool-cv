@@ -25,4 +25,14 @@ gameField.addEventListener('click', (e)=>{
     clickSound();
 })
 ```
-
+## Experience:
+Work on projects in RSschool [github](https://github.com/viachaslaunasyrau)
+## Education: 
+* Belarusian State College of Building Materials Industry 2006-2009
+* RSschool courses Stage#0, and start Stage#1
+* self-study
+## Languages:
+* English(A2)
+* Polish(A1) - life and work in Poland more than 6 months
+* Russian(Native)
+* Belarussian(Native)
