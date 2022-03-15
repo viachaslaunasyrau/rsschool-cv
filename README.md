@@ -1,1 +1,1 @@
-https://viachaslaunasyrau.github.io/rsschool-cv/
+https://viachaslaunasyrau.github.io/rsschool-cv/cv
