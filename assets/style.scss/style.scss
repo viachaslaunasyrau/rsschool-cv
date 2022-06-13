@@ -85,6 +85,10 @@ body{
                 font-size: 10px;
                 font-weight: 400;
             }
+            .link__contact:hover{
+                background: linear-gradient(90deg, #9967BA 0%, #0071E3 100%);
+                color: goldenrod;
+            }
             .icon{
                 width: 13px;
                 height: 13px;
@@ -220,6 +224,31 @@ body{
                 line-height: 14px;
                 text-align: justify;
                 letter-spacing: 0.05em;
+            }
+        }
+        .experience{
+            margin-top: 20px;
+            .experience__title{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 14px;
+                width: 122px;
+                border-bottom: 2px solid #0071E3;
+                padding-bottom: 5px;
+            }
+            .experience{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 14px;
+                text-align: justify;
+                letter-spacing: 0.03em;
+            }
+            .example{
+                text-align: start;
+                margin-top: 20px;
+                background: linear-gradient(90deg, #9967BA 0%, #0071E3 100%);
             }
         }
     }

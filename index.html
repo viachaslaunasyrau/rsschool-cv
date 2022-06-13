@@ -76,7 +76,7 @@
                     <li class="education__item">self-study</li>
                 </ul>
             </section>
-            <section class="languages">
+            <section class="languages" id="languages">
                 <h2 class="languages__title">Languages</h2>
                 <ul class="languages__list">
                     <li class="list__item">English(A2)</li>
@@ -90,7 +90,7 @@
             <div class="wrap">
                 <h1 class="title__main">Viachaslau Nasyrau</h1>
                 <h3 class="sub__title">beginner Front End Developer</h3>
-                <section class="about__me">
+                <section class="about__me" id="about__me">
                     <h2 class="about__me__title">About Me</h2>
                     <p class="about">
                         Hello! My name is Slava and I want to become a front-end developer! 
@@ -103,8 +103,37 @@
                         Continuous development is the key to success!
                     </p>
                 </section>
+                <section class="experience" id="experience">
+                    <h2 class="experience__title">Experience</h2>
+                    <p class="experience">
+                        Work on very interesting projects in RSschool, example "Shelter","Portfolio",
+                        and many tasks from Codewars.Also on the course I met many people and learned how to work in a team.
+                        Now, if they ask me what experience you have, 
+                        I can say - small, but in my opinion sufficient 
+                        to be engaged in development and continue to move without stopping in place.
+                    </p>
+                    <p class="example">
+                        <code>
+                            gameField.addEventListener('click', (e)=>{
+                                if(e.target.className = 'game__box'){<br>
+                                    move % 2 === 0 ? e.target.innerHTML = 'X' : e.target.innerHTML = 'O';<br>
+                                    move++;<br>
+                                    check();<br>
+                                }<br> 
+                                clickSound();
+                            })
+                        </code>
+                    </p>
+                </section>
             </div>
         </main>
     </div>
+    <footer class="footer">
+        <div class="footer__wrap">
+            <a href="" class="link__contact">https://github.com/viachaslaunasyrau</a>
+            <span>2022</span>
+            
+        </div>
+    </footer>
 </body>
 </html>
