@@ -4,9 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.scss/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>CV.Viachaslau Nasyrau</title>
 </head>
 <body>
-    
+    <div class="wrapper__header">
+        <header class="header">
+            <nav class="navigation">
+                <ul class="nav__menu">
+                    <li class="nav__item"><a href="#" class="nav__link">My Contacts</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="main__wrap">
+        <aside class="sidebar">
+            <div class="avatar__photo"></div>
+            <section class="contacts" id="contacts">
+                <h2 class="title__contacts">Contacts</h2>
+                <ul class="contact">
+                    <li class="contacts__item">
+                        <svg class="icon">
+                            <use xlink:href=".//assets/svg/sprite.svg#phone"></use>
+                        </svg>
+                        <a href="" class="link__contact">+375(29)663-43-67</a>
+                    </li>
+                    <li class="contacts__item">
+                        <svg class="icon">
+                            <use xlink:href=".//assets/svg/sprite.svg#email"></use>
+                        </svg>
+                        <a href="" class="link__contact">viachaslaunasyrau@gmail.com</a>
+                    </li>
+                    <li class="contacts__item">
+                        <svg class="icon">
+                            <use xlink:href=".//assets/svg/sprite.svg#github"></use>
+                        </svg>
+                        <a href="" class="link__contact">https://github.com/viachaslaunasyrau</a>
+                    </li>
+                    <li class="contacts__item">
+                        <svg class="icon">
+                            <use xlink:href=".//assets/svg/sprite.svg#adress"></use>
+                        </svg>
+                        <a href="" class="link__contact">Belarus, Minsk, st Lobanka 109-175</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="skills" id="skills">
+                <h2 class="skills__title">Skills</h2>
+                <ul class="skills__list">
+                    <li class="skills__item">HTML/CSS</li>
+                    <li class="skills__item">Javascript(Basic)</li>
+                    <li class="skills__item">preprocessor SCSS/SAAS</li>
+                    <li class="skills__item">Git/GitHub/Git Bash</li>
+                    <li class="skills__item">Flexbox/Grid technology</li>
+                    <li class="skills__item">Adaptive layout/fixed layout</li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2 class="title__education">Education</h2>
+                <ul class="education__list">
+                    <li class="education__item">Belarusian State College of Building Materials Industry 2006-2009</li>
+                    <li class="education__item">RSschool courses Stage#0</li>
+                    <li class="education__item">self-study</li>
+                </ul>
+            </section>
+            <section class="languages">
+                <h2 class="languages__title">Languages</h2>
+                <ul class="languages__list">
+                    <li class="list__item">English(A2)</li>
+                    <li class="list__item">Polish(A1)</li>
+                    <li class="list__item">Belarussian(Native)</li>
+                    <li class="list__item">Russian(Native)</li>
+                </ul>
+            </section>
+        </aside>
+        <main class="main">
+            <div class="wrap">
+                <h1 class="title__main">Viachaslau Nasyrau</h1>
+                <h3 class="sub__title">beginner Front End Developer</h3>
+                <section class="about__me">
+                    <h2 class="about__me__title">About Me</h2>
+                    <p class="about">
+                        Hello! My name is Slava and I want to become a front-end developer! 
+                        Now I am studying at the RSschool in this specialty. 
+                        From the first weeks of training, I realized that I really like it, but it's not easy, 
+                        it requires attentiveness, constant learning and work on oneself, 
+                        but I think this is the most important thing in life.In the future, 
+                        I plan not to stop, but to constantly learn and study new technologies, 
+                        frameworks and do everything to become a good specialist! 
+                        Continuous development is the key to success!
+                    </p>
+                </section>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
