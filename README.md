@@ -1,1 +1,1 @@
-# rsschool-cv
+https://viachaslaunasyrau.github.io/rsschool-cv/
