@@ -25,7 +25,7 @@ body {
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid blanchedalmond;
+  border-radius: 10px;
   background: linear-gradient(90deg, #9967BA 0%, #0071E3 100%);
 }
 .nav__menu .nav__item {
@@ -70,9 +70,9 @@ body {
 .main__wrap .sidebar .avatar__photo {
   width: 224px;
   height: 224px;
-  background-image: url("/assets/img/IMG_20200802_122213.jpg");
-  background-position: center;
+  background-image: url(/assets/img/IMG_20200802_122213.jpg);
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: contain;
 }
 .main__wrap .sidebar .contact {
@@ -271,6 +271,7 @@ body {
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
+  border-radius: 10px;
 }
 .footer__wrap span {
   color: #FFFFFF;
