@@ -63,15 +63,10 @@ body{
             }
         }
         .avatar__photo{
+            display: block;
             width: 224px;
             height: 224px;
-            background-image: url(/assets/img/IMG_20200802_122213.jpg);
-            background-repeat: no-repeat;
-            background-position: center center;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: contain;
+            object-fit: contain;
         }
         .contact{
             display: flex;
