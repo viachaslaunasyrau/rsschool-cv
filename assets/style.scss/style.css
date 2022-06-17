@@ -68,12 +68,11 @@ body {
   background: linear-gradient(90deg, #9967BA 0%, #0071E3 100%);
 }
 .main__wrap .sidebar .avatar__photo {
+  display: block;
   width: 224px;
   height: 224px;
-  background-image: url(/assets/img/IMG_20200802_122213.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .main__wrap .sidebar .contact {
   display: flex;
